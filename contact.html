@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Jeremy Fields Final "Contact"</title>
+      <meta name="description" content="Progress Check 2">
+      <meta name="author" content="Jeremy Fields">
+      <link rel="stylesheet" href="styles.css">
+      <!--Jeremy Fields-->
+   </head>
+   <body>
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="what_we_do.html">What We Do</a></li>
+         <li><a href="current_projects.html">Current Projects</a></li>
+         <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <br />
+      <div class="header">
+         <img src="JTSlogo.png" alt="Jeremy's Tech Services logo"/>
+         <div class="headerText">
+            <h1>Contact Us!</h1>
+         </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <p class="info">Have a project? Need a consultation? We would love to hear from you! <br>
+         No project is too big or too small! Fill out the form and we will get back to you!
+      </p>
+      <form name="myForm" id="myForm" onsubmit="return validator()" method="post">
+         <div class="divMain">
+            <div class="divLabel">
+               <label for="name" class="title">Name</label>
+            </div>
+            <div class="divField">
+               <input type="text" id="name" name="name" maxlength="30"/>
+            </div>
+            <div class="divNameError2" id="divNameError2">
+               Name Blank or Too Long
+            </div>
+            <br />
+            <div class="divLabel">
+               <label for="phone" class="title">Phone</label>
+            </div>
+            <div class="divField">
+               <input type="text" id="phone" name="phone" maxlength="10"/>
+            </div>
+            <div class="divPhoneError2" id="divPhoneError2">
+               Enter a Valid Phone Number
+            </div>
+            <br />
+            <div class="divLabel">
+               <label for="email" class="title">Email Address</label>
+            </div>
+            <div class="divField">
+               <input type="text" id="email" size="40" maxlength="40"/>
+            </div>
+            <div class="divEmailError2" id="divEmailError2">
+               Email Format Incorrect
+            </div>
+            <div class="divButton">
+               <input type="submit" id="submit" name="submit" class="button" value="Submit Payment"/>
+            </div>
+         </div>
+      </form>
+      <br>
+      <br>
+      <h3 class="headerVisit">Come visit us!</h3>
+      <div class="map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.4895931380725!2d-111.68071248450973!3d33.306013664130354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872bad9d431dcdf9%3A0x2d9cc1177cc68ed2!2sArizona%20State%20University%20Polytechnic%20Campus!5e0!3m2!1sen!2sus!4v1636512221379!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <script src="js.js"></script>
+   </body>
+</html>
